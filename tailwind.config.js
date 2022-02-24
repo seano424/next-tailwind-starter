@@ -1,4 +1,7 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
+  mode: 'jit',
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
@@ -12,7 +15,11 @@ module.exports = {
       },
       prefix: 'screen: ',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans]
+      }
+    },
   },
   plugins: [
     require('tailwindcss-debug-screens', '@tailwindcss/forms', '@tailwindcss/aspect-ratio', '@tailwindcss/typography'),

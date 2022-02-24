@@ -18,7 +18,7 @@
 }
 
 @layer components {
-  .text-red {
-    @apply text-red-400
+  .text-purple {
+    @apply text-purple-500
   }
 }
