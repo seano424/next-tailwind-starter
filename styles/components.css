@@ -1,0 +1,10 @@
+@layer components {
+  .link {
+    @apply text-yellow-300 text-5xl font-black uppercase tracking-tighter;
+    font-family: 'CabinetGrotesk';
+  }
+
+  .card {
+    @apply shadow-lg rounded-md p-5 tracking-widest leading-loose;
+  }
+}
