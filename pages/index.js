@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div class="w-full py-20 container mx-auto">
+    <div className="w-full py-20 container mx-auto">
       <h1 className="text-7xl font-black text-center max-w-2xl mx-auto">
         Next Tailwind Starter Kit!!
       </h1>
