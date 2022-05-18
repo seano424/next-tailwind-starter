@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <span className="transform rotate-45">🦀 </span>
       Next TW Starter Kit
       <span className="transform rotate-45">🐠</span>
