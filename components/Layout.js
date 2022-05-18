@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Footer from './Footer'
-import Header from './Header'
+import Navbar from './Navbar'
 
 export default function layout({ children }) {
   return (
@@ -25,7 +25,7 @@ export default function layout({ children }) {
           crossOrigin=""
         />
       </Head>
-      <Header />
+      <Navbar />
       <main className="flex-1 w-full h-full relative top-20">{children}</main>
       <Footer />
     </div>
