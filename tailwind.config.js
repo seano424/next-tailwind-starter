@@ -18,7 +18,13 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        cabinet: '"CabinetGrotesk", serif',
+        gambarino: '"Gambarino", serif',
       },
+    },
+    container: {
+      center: true,
+      padding: '2rem',
     },
   },
   plugins: [
