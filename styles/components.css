@@ -7,4 +7,13 @@
   .card {
     @apply shadow-lg rounded-md p-5 tracking-widest leading-loose;
   }
+
+  .footer {
+    @apply flex w-full shadow-teal-500 shadow-sm p-5 justify-center gap-6 uppercase font-extralight tracking-tighter;
+    font-family: 'CabinetGrotesk';
+  }
+
+  .h1 {
+    font-family: 'CabinetGrotesk';
+  }
 }
