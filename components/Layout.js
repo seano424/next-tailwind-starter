@@ -26,7 +26,7 @@ export default function layout({ children }) {
         />
       </Head>
       <Navbar />
-      <main className="flex-1 w-full h-full relative top-20">{children}</main>
+      <main className="flex-1 w-full h-full">{children}</main>
       <Footer />
     </div>
   )
